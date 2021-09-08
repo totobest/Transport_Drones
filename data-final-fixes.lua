@@ -56,6 +56,6 @@ end
 
 shared.drone_collision_mask = {"ground-tile", "water-tile", "colliding-with-tiles-only", "consider-tile-transitions"}
 
-local util = require "__Transport_Drones__/data/tf_util/tf_util"
+local util = require "__baguette_TD__/data/tf_util/tf_util"
 require("data/entities/transport_drone/transport_drone")
 require("data/make_request_recipes")

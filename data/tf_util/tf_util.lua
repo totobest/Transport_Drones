@@ -159,7 +159,7 @@ util.base_player = function()
 end
 
 util.path = function(str)
-  return "__Transport_Drones__/" .. str
+  return "__baguette_TD__/" .. str
 end
 
 util.empty_sound = function()
