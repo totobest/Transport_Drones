@@ -545,7 +545,7 @@ end
 function request_depot:remove_drone(drone, remove_item)
   self.drones[drone.index] = nil
   if remove_item then
-    self:get_drone_inventory().remove{name = "transport-drone", count = 1}
+    -- self:get_drone_inventory().remove{name = "transport-drone", count = 1}
   end
   self:update_sticker()
 end
